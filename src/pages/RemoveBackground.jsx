@@ -3,7 +3,7 @@ import React from 'react'
 const RemoveBackground = () => {
   return (
     <div>
-      RemoveBackground
+      RemoveBackground 
     </div>
   )
 }

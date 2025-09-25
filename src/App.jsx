@@ -21,7 +21,7 @@ const App = () => {
            <Route path='write-article' element={<WriteArticle />} />
            <Route path='blog-titles' element={<BlogTitles />} />
            <Route path='generate-images' element={<GenerateImages />} />
-           <Route path='remove-backround' element={<RemoveBackground />} />
+           <Route path='remove-background' element={<RemoveBackground />} />
            <Route path='remove-object' element={<RemoveObject />} />
            <Route path='review-resume' element={<ReviewResume />} />
            <Route path='comunity' element={<Community />} />
