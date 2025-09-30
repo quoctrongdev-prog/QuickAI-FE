@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { dummyCreationData } from '../assets/assets';
-import { Gem, Sparkle } from 'lucide-react';
+import { Gem, Sparkle, Sparkles } from 'lucide-react';
 import { Protect } from '@clerk/clerk-react';
 import CreationItems from '../components/CreationItems';
 
@@ -28,7 +28,7 @@ const Dashboard = () => {
           </div>
           <div className='w-10 h-10 rounded-lg bg-gradient-to-br from-[#3588F2]
           to-[#0BB0D7] text-white flex justify-center items-center'>
-            <Sparkle className='w-5 text-white' />
+            <Sparkles className='w-5 text-white' />
           </div>
         </div>
         {/* Active Plan Card  */}
